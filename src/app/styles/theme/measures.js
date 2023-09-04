@@ -1,0 +1,8 @@
+export const borderRadius = '2px'
+export const menuIconMargin = '1rem'
+export const menuItemHeight = '3rem'
+export const menuOverlayMaxWidth = '17.5rem'
+export const menuOverlayMinWidth = '7rem'
+export const menuSidePadding = '1rem'
+export const menuSubmenuIndicatorSize = '0.625rem'
+export const menuVerticalPadding = '0.5rem'

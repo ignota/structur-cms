@@ -1,0 +1,10 @@
+.git
+.gitlab-ci.yml
+*.log
+dist
+Dockerfile
+logs
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

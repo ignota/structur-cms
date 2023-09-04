@@ -1,0 +1,176 @@
+env:
+  browser: true
+  es6: true
+  node: true
+extends:
+  - standard
+  - plugin:ramda/recommended
+  - plugin:react/recommended
+globals:
+  __CABLE_URI__: false
+  __DEV__: false
+  __SERVER_SIDE__: false
+  __STRUCTUR_URI__: false
+  __TRYSTERO_URI__: false
+  __WHOMST_URI__: false
+parser: babel-eslint
+parserOptions:
+  ecmaFeatures:
+    impliedStrict: true
+    jsx: true
+  ecmaVersion: 10
+  sourceType: module
+plugins:
+  - babel
+  - import
+  - node
+  - promise
+  - ramda
+  - react
+  - react-hooks
+  - standard
+settings:
+  react:
+    version: '16.7'
+rules:
+  babel/new-cap:
+    - warn
+    - capIsNew: false
+      newIsCap: true
+  babel/no-invalid-this: warn
+  babel/object-curly-spacing:
+    - warn
+    - always
+  babel/quotes:
+    - warn
+    - single
+    - allowTemplateLiterals: true
+      avoidEscape: true
+  babel/semi:
+    - error
+    - never
+  babel/no-unused-expressions:
+    - error
+    - allowShortCircuit: true
+      allowTernary: true
+
+  react/display-name: off
+  react/jsx-closing-bracket-location:
+    - warn
+    - after-props
+  react/jsx-curly-spacing:
+    - warn
+    - children: true
+      spacing:
+        objectLiterals: never
+      when: always
+  react/jsx-filename-extension:
+    - error
+    - extensions:
+        - .js
+  react/jsx-fragments: warn
+  react/jsx-indent:
+    - error
+    - 2
+    - checkAttributes: true
+  react/jsx-sort-props:
+    - warn
+    - callbacksLast: true
+      ignoreCase: true
+      reservedFirst: false
+      shorthandFirst: true
+  react/jsx-tag-spacing:
+    - warn
+    - closingSlash: never
+      beforeSelfClosing: always
+      afterOpening: never
+  react/no-deprecated: warn
+  react/no-find-dom-node: off
+  react/prop-types: off
+  react/require-render-return: off
+
+  react-hooks/rules-of-hooks: error
+
+  camelcase:
+    - warn
+    - allow:
+        - ^UNSAFE_
+      ignoreDestructuring: false
+      properties: always
+  comma-dangle:
+    - warn
+    - arrays: always-multiline
+      exports: always-multiline
+      functions: always-multiline
+      imports: always-multiline
+      objects: always-multiline
+  eol-last: off
+  generator-star-spacing:
+    - warn
+    - after: true
+      before: false
+      method: before
+  indent:
+    - error
+    - 2
+    - ArrayExpression: first
+      CallExpression:
+        arguments: first
+      FunctionDeclaration:
+        body: 1
+        parameters: first
+      FunctionExpression:
+        parameters: first
+        body: 1
+      MemberExpression: 1
+      ObjectExpression: first
+      outerIIFEBody: 1
+      SwitchCase: 1
+      VariableDeclarator:
+        const: 3
+        let: 2
+        var: 2
+  jsx-quotes:
+    - warn
+    - prefer-single
+  new-cap: off
+  no-cond-assign: off
+  no-fallthrough: off
+  no-invalid-this: off
+  no-multiple-empty-lines: off
+  no-return-assign: off
+  no-template-curly-in-string: error
+  no-trailing-spaces: off
+  no-undef: error
+  no-unused-expressions: off
+  no-unused-vars:
+    - error
+    - args: all
+      argsIgnorePattern: ^_
+      varsIgnorePattern: ^_.+
+  no-use-before-define:
+    - error
+    - classes: false
+      functions: false
+      variables: true
+  no-useless-catch: warn
+  object-curly-spacing: off
+  quotes: off
+  semi: off
+  sort-imports:
+    - warn
+    - ignoreCase: true
+  sort-keys:
+    - warn
+    - asc
+    - caseSensitive: false
+      natural: true
+  space-infix-ops: warn
+  space-before-function-paren:
+    - warn
+    - anonymous: never
+      asyncArrow: always
+      named: never
+  template-curly-spacing:
+    - warn
+    - always

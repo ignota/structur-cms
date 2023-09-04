@@ -1,0 +1,38 @@
+/*
+**                                              '::
+**                                          .',lll;
+**                                        ,lllllll
+**                                      .llllllll;
+**                                        ,llllll.
+**                       ..,;::::;,..      lllllc
+**                    .,llllllllllllllc,. .lllll,        .';:c:,
+**                  .:llllllllllllllllllllllllll.    .;clllllllll
+**                 ;l:'.     ..,:lllllllllllllll..'cllll:cllllllc
+**                ..              ..;lllllllllllllll:'.   .:lc;.
+**                                     'lllllllllllc.
+**                      .             .;lllllllllllllc'           .,;
+**                    ;llc.      .';llllllllllllllllllllc,..  ..,clc.
+**                   lllllll:;:clllllc, .llllllllllllllllllllllllc.
+**                  .lllllllllllc;.     .lllllllc:clllllllllllc,.
+**                   .,:::;,'..         .llllll.     .',;;,'.
+**                                      ,lllll:
+**                                      :lllll.
+**                                      lllllc..
+**                                      llllllll.
+**                                     .lllllc'
+**             88                      .lll,.
+**             88                        .             ,d
+**             88                                      88
+**             88  ,adPPYb,d8 8b,dPPYba,   ,adPPYba, MM88MMM ,adPPYYba,
+**             88 a8"    `Y88 88P'   `"8a a8"     "8a  88    ""     `Y8
+**             88 8b       88 88       88 8b       d8  88    ,adPPPPP88
+**             88 "8a,   ,d88 88       88 "8a,   ,a8"  88,   88,    ,88
+**             88  `"YbbdP"Y8 88       88  `"YbbdP"'   "Y888 `"8bbdP"Y8
+**                 aa,    ,88
+**                  "Y8bbdP"
+**
+**
+**                       (c) 2019 The Ignota Media Corporation
+**                         All rights emphatically reserved.
+**
+*/
